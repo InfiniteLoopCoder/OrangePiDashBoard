@@ -4,7 +4,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Pi Dashboard</title>
+    <title>Orange Pi Dashboard</title>
 	<link rel="icon" href="favicon.png" type="image/x-icon" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
@@ -41,17 +41,17 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Pi Dashboard</a>
+                <a class="navbar-brand" href="#">Orange Pi Dashboard</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a target="_blank" href="http://shumeipai.nxez.com">树莓派实验室</a></li>
+                    <li><a target="_blank" href="https://www.syf.ink">我的香橙派</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">关于 <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a target="_blank" href="http://maker.quwj.com/project/10">Pi Dashboard</a></li>
-                            <li><a target="_blank" href="https://github.com/spoonysonny/pi-dashboard">GitHub Source</a></li>
+                            <li><a target="_blank" href="https://www.syf.ink">个人主页</a></li>
+                            <li><a target="_blank" href="https://github.com/syf2005/OrangePiDashBoard">GitHub Source</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -239,7 +239,7 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
             <div class="col-md-12">
                 <div id="footer">
                     <hr style="margin: 20px 0 10px 0;" />
-                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="http://maker.quwj.com/project/10"><strong>Pi Dashboard</strong></a> v<?php echo($D['version']) ?>, <a target="_blank" href="http://www.nxez.com">NXEZ.com</a> all rights reserved.
+                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="https://github.com/syf2005/OrangePiDashBoard"><strong>Orange Pi Dashboard</strong></a> v<?php echo($D['version']) ?>, 感谢原作者<a target="_blank" href="http://www.nxez.com">NXEZ.com</a>
                     </p>
                 </div>
             </div>
